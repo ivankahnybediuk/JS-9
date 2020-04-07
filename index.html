@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="open_button" onclick="showModalWindow()">Task 1</button>
+    <div id="filter" onclick="closeModalWindow()"></div>
+    <div id="modal_window">
+        
+        
+        <div id="text-div">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus in totam vero corporis reiciendis soluta sit inventore sed, vel aliquid perspiciatis. Magni ducimus quibusdam ipsa molestias, alias tempore est voluptatem!</div>
+
+        
+        
+        
+        <button id="close_button" onclick="closeModalWindow()">Close</button>
+    </div>
+
+    <table class="table_sort">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Lisa</td>
+                <td>Kyiv</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Olexandr</td>
+                <td>Vinnitsia</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bohdan</td>
+                <td>Ternopil</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Nazar</td>
+                <td>Lviv</td>
+                <td>-20</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="block">
+        <span> </span>
+        <br />
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi totam minus provident temporibus placeat, nihil dicta odit culpa vero odio necessitatibus inventore debitis saepe explicabo numquam, corporis, sed eligendi magnam?</span>
+        <div id="block_resize"></div>
+      </div>
+<script src="script.js"></script>   
+</body>
+</html>
